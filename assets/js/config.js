@@ -8,10 +8,10 @@
  */
 window.INVOTRACK_CONFIG = {
   // ---- Business (shown in footer, Privacy Policy, Terms) ----
-  businessName: "[Your registered business name]",    // TODO
-  businessAddress: "[Registered address, City, State, PIN]", // TODO
-  supportEmail: "support@invotrack.in",               // TODO: an inbox you actually read
-  whatsappNumber: "91XXXXXXXXXX",                     // TODO: country code + number, digits only
+  businessName: "InvoTrack",    
+  businessAddress: "E-68, Okhla Vihar, New Delhi",    
+  supportEmail: "support@invotrack.in",               
+  whatsappNumber: "917827189107",                    
 
   // ---- Google Play (leave "" until the app is live) ----
   playStoreUrl: "",
@@ -19,13 +19,13 @@ window.INVOTRACK_CONFIG = {
   // ---- Pricing (₹, whole numbers). A price of 0 shows "Contact us". ----
   gstNote: "Prices exclusive of GST",                 // TODO: or "Prices inclusive of GST"
   plans: [
-    { id: "monthly",  name: "Monthly",  price: 0, period: "/month",  note: "Billed every month" },
-    { id: "yearly",   name: "Yearly",   price: 0, period: "/year",   note: "Best value", featured: true },
-    { id: "lifetime", name: "Lifetime", price: 0, period: " once",   note: "Pay once, use forever" }
+    { id: "monthly",   name: "Monthly",   price: 300, period: "/month",    note: "Billed every month" },
+    { id: "quarterly", name: "Quarterly", price: 800, period: "/3 months", note: "Billed every 3 months" },
+    { id: "yearly",    name: "Yearly",    price: 2500, period: "/year",     note: "Best value", featured: true }
   ],
 
   // ---- Legal ----
-  jurisdictionCity: "[City]",                         // TODO: city whose courts handle disputes
-  grievanceOfficer: "[Name of grievance officer]",    // TODO: required under India's DPDP / IT Rules
+  jurisdictionCity: "New Delhi",    // TODO: city whose courts handle disputes
+  grievanceOfficer: "John Doe",    // TODO: required under India's DPDP / IT Rules
   policyUpdated: "21 October 2026"
 };
